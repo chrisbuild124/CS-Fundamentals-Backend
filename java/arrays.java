@@ -15,10 +15,7 @@ str_arr[0];
 
 import java.util.ArrayList;
 ArrayList<Integer> list = new ArrayList<>();
-
 list.add(10);  // append
-list.add(20);
-list.add(30);
 
 // No slicing. Instead:
 import java.util.Arrays;
