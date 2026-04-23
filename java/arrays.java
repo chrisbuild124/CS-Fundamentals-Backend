@@ -1,5 +1,5 @@
-import java.util.ArrayList; // Imports required to be on top of file. Dynamic array imported
-import java.util.Arrays; // Arrays library required for slicing 
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class Main {
         int[] arr1 = {10, 20};
         int len1 = arr1.length;
 
-        int[] arr2 = new int[2]; // defaults to 0
+        int[] arr2 = new int[2];
 
         String s = "hello";
         int strLen = s.length();
