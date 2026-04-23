@@ -15,6 +15,7 @@ public class Main {
         int[] arr2 = new int[2];
 
         String s = "hello";
+        s.charAt(0) == 'h';
         int strLen = s.length();
 
         // Dynamic array
@@ -25,6 +26,8 @@ public class Main {
         // Slicing
         int[] arr3 = {10, 20, 30, 40, 50};
         int[] arrNew = Arrays.copyOfRange(arr3, 1, 4);
+        String[] strs = {"abc","abcde","abcdef"};
+        String newString strs[0].substring(0, 1); // Best way
 
         // 2D array
         int[][] grid = new int[3][4];
