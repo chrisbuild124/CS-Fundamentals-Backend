@@ -1,5 +1,5 @@
-import java.util.ArrayList; // Imports required to be on top of file
-import java.util.Arrays;
+import java.util.ArrayList; // Imports required to be on top of file. Dynamic array imported
+import java.util.Arrays; // Arrays library required for slicing 
 
 public class Main {
     public static void main(String[] args) {
