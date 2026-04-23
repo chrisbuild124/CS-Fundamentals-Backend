@@ -1,23 +1,22 @@
-// Some array notation
+// Static Arrays
 
-// Initializer 
-String[] cars;
-String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-int[] myNum = {10, 20, 30, 40};
-int[] s_array = new int[26]; // Empty array - 0 is initialized at first
+String[] str_arr; // Initialize Array
+String[] str_arr = {"1", "2", "3", "4"}; // Change values
+int[] arr = {10, 20, 30, 40}; // Initialize array w/ values
+int[] arr = new int[2]; // Empty array - 0 is initialized at first
 
 // Modify
-cars[0] = "Opel";
-s_array[s.charAt(i) - base] += 1; // strings are not arrays in java
+str_arr[0] = "0";
 
 // Retrieve
-s_array[0];
+str_arr[0];
 
-// Dynamic array in java. Arrays are static in nature in java. Need to re-create array if not static. 
+// Dynamic array in java
+
 import java.util.ArrayList;
 ArrayList<Integer> list = new ArrayList<>();
 
-list.add(10);  // append / push
+list.add(10);  // append
 list.add(20);
 list.add(30);
 
@@ -25,9 +24,6 @@ list.add(30);
 import java.util.Arrays;
 int[] arr = {10, 20, 30, 40, 50};
 int[] newArr = Arrays.copyOfRange(arr, 1, 4); 
-// gives {20, 30, 40}
-
-// Search array: Must use for loop
 
 // Get length of array
 int len = arr.length; // Since array is array object
@@ -36,11 +32,9 @@ int len = s.length(); // Since s is a string object
 
 // 2D array
 int[][] grid = new int[3][4]; // 3 rows, 4 columns
-// Accessing
 for (int i = 0; i < grid.length; i++) {
     for (int j = 0; j < grid[i].length; j++) {
         System.out.print(grid[i][j] + " ");
     }
     System.out.println();
 }
-
