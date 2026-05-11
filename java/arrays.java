@@ -38,5 +38,12 @@ public class Main {
             }
             System.out.println();
         }
+
+        // Trick to iterate through array
+        int[] nums = {1, 2, 3};
+        int[] ans = new int[2 * nums.length];
+        for (int num : nums) {
+            ans[idx++] = num;
+        }
     }
 }
