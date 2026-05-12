@@ -1,5 +1,10 @@
 ### Java Rules & Standards
 - Imports must be at top of file
+    ```java
+      import import java.util.HashSet
+
+      // main class and code
+    ```
 - Everything requires to be in a class
   - Could be enums, interface, or record instead
   - Main class:
