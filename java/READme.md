@@ -1,4 +1,7 @@
 ### Java Rules & Standards
+- Everything in Java is passed by value
+    - Primitive types values are directly passed as copies
+    - Mutable types are passed as copies of references
 - Imports must be at top of file
     ```java
       import import java.util.HashSet
