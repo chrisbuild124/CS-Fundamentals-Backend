@@ -14,3 +14,7 @@ int idx = c - 'a';
 // Simplifier 
 int[] res = new int[2];
 res[0] = 1; res[1] = 2;
+
+// Substring
+String s = "hello";
+String res = s.substring(1, 4);
