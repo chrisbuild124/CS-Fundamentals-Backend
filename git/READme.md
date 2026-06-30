@@ -130,5 +130,8 @@
 ### Git config variables
 - `git config --global user.name "Chris Sexton"`
 - `git config --global user.email sextonch@oregonstate.edu`
+
+### Git branch visualization
+- `git log --graph --all`
 ---
 #### Copyright © 2026 Chris Sexton. All rights reserved.
