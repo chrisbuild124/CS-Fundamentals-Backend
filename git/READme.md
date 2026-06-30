@@ -125,6 +125,10 @@
 - **Way 2:** Undo the history - creates a new commit with reversed changed (New History)
   - `git revert <commit id>`
   - `git revert <optional:HEAD~<integer>>`
-    - integer: default 1 
+    - integer: default 1
+   
+### Git config variables
+- `git config --global user.name "Chris Sexton"`
+- `git config --global user.email sextonch@oregonstate.edu`
 ---
 #### Copyright © 2026 Chris Sexton. All rights reserved.
