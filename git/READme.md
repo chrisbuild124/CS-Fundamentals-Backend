@@ -131,7 +131,10 @@
 - `git config --global user.name "Chris Sexton"`
 - `git config --global user.email sextonch@oregonstate.edu`
 
-### Git branch visualization
+### Git remote and branch visualization
+- `git add remote add <link>`
 - `git log --graph --all`
+- `git push --all origin`
+  - pushes branches
 ---
 #### Copyright © 2026 Chris Sexton. All rights reserved.
