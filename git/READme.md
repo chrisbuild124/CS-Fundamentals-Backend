@@ -136,5 +136,8 @@
 - `git log --graph --all`
 - `git push --all origin`
   - pushes branches
+
+### Merge A into B
+- `git merge featureB`
 ---
 #### Copyright © 2026 Chris Sexton. All rights reserved.
